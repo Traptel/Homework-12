@@ -5,8 +5,7 @@ def sort_and_print_matrix(m):
 
     matrix = [
         [random.randint(1, 50) for _ in range(m)]
-        for _ in range(m)
-    ]
+        for _ in range(m)]
     print(f"\nМатриця {m}x{m} до сортування:")
     for row in matrix:
         for el in row:
